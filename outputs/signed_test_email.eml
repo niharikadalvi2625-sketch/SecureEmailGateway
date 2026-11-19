@@ -1,0 +1,16 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=example.test;
+ i=@example.test; q=dns/txt; s=test; t=1795100917; h=from : to :
+ subject; bh=JhTSbXZ4G0mX2hg5okSVqqO9d7v4pYaZROzNjwvTqVY=;
+ b=KayJv0ZJMTrNS1giyTgJTrK0d8IzKVmHuij8ndTtD4ydeq+eYZaRx+ch0PMTERwJVKPsS
+ 8y++OaBtQXQBoyIGY8qZeA6IR8Wu6EAbHZj6ZBmtmSKWLHWe3JsQRWEoIyUVbFG3eNUxH+p
+ KFB6kTANo7z8ngRxsJtlRMIrANuaCJ5u8vQOB2Un+sO0ZRJTW7P1aytmuG4JMD5yZRZ5fPl
+ //lyzI8p0pIp7NawSLYq8bZ0aWPGpdY9WuT2sABuetlvi8si86AJDLWUIdpmJTkcN2Gfqa0
+ CY0rdOkuAGVkr0KeXaqQ5J/7H89G4a5Bos2ZT6c2n7mk5VycBTIj6gMpe2mg==
+From: sender@example.test
+To: receiver@example.test
+Subject: DKIM Authentication Test
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+This is a test email signed using DKIM.

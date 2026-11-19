@@ -1,0 +1,10 @@
+
+.venv/
+__pycache__/
+*.pyc
+
+# Protect private DKIM keys
+keys/dkim_private.pem
+
+# Temporary files
+*.log
